@@ -1,7 +1,7 @@
 language: objective-c
 env:
-- TARGET=avrv4/az9360mb
-- TARGET=avrv4/integrator
+- TARGET=armv4/az9360mb
+- TARGET=armv4/integrator
 - TARGET=blackfin/bf533cb
 - TARGET=blackfin/ezkit_bf527
 - TARGET=blackfin/ezkit_bf533
