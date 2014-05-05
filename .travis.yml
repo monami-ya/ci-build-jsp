@@ -1,5 +1,6 @@
 language: objective-c
 env:
+- BRANCH=develop
 - TARGET=armv4/az9360mb
 - TARGET=armv4/integrator
 - TARGET=blackfin/bf533cb
@@ -37,5 +38,5 @@ env:
 - TARGET=v850/tk850_sg2
 - TARGET=xstormy16/simulator
 script:
-- git clone http://support.toppers-open.org/jsp_core.git
+- git clone http://support.toppers-open.org/jsp_core.git -b $BRANCH
 - ./jsp_build.sh $TARGET
