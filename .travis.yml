@@ -1,7 +1,8 @@
 language: objective-c
 env:
-  matrix:
+  global:
   - BRANCH=develop
+  matrix:
   - TARGET=armv4/az9360mb
   - TARGET=armv4/integrator
   - TARGET=blackfin/bf533cb
