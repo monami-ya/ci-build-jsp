@@ -1,0 +1,42 @@
+Language: objective-c
+env:
+- TARGET=avrv4/az9360mb
+- TARGET=avrv4/integrator
+- TARGET=blackfin/bf533cb
+- TARGET=blackfin/ezkit_bf527
+- TARGET=blackfin/ezkit_bf533
+- TARGET=blackfin/ezkit_bf537
+- TARGET=blackfin/nosys
+- TARGET=blackfin/rebun
+- TARGET=h8/akih8_3052f
+- TARGET=h8/akih8_3069f
+- TARGET=lm32/ecp2
+- TARGET=m32r/m3a_2131
+- TARGET=m32r/m3a_za36
+- TARGET=m68k/dve68k
+- TARGET=microblaze/mire_multi
+- TARGET=microblaze/miref
+- TARGET=microblaze/multimedia
+- TARGET=microblaze/suzaku
+- TARGET=mips32/malta
+- TARGET=mips32/sead3
+- TARGET=mips32/semc5701
+- TARGET=nios2/altera_dev_board
+- TARGET=s1c33/dmt33209
+- TARGET=s1c33/luxun2
+- TARGET=s1c33-gnu33
+- TARGET=s1c33-gnu33/dmt33209
+- TARGET=s1c33-gnu33/luxun2
+- TARGET=sh1/kz_sh1
+- TARGET=sh1/zunda_sh1
+- TARGET=sh2/apsh2f6a
+- TARGET=sh2/hsb7616it
+- TARGET=sh3/ms7727cp01
+- TARGET=sh3/solution_engine
+- TARGET=v850/tk850_kj1
+- TARGET=v850/tk850_sg2
+- TARGET=xstormy16/simulator
+before_script:
+- git clone http://support.toppers-open.org/jsp_core.git
+script:
+- ./jsp_build.sh $TARGET
