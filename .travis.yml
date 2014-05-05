@@ -5,6 +5,8 @@ env:
   matrix:
   - TARGET=armv4/az9360mb
   - TARGET=armv4/integrator
+  - TARGET=armv4/cq_frk_nxp_arm
+  - TARGET=armv4/cq_frk_nxp_arm_sram
   - TARGET=blackfin/bf533cb
   - TARGET=blackfin/ezkit_bf527
   - TARGET=blackfin/ezkit_bf533
