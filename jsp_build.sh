@@ -6,7 +6,7 @@ if [ $# -ne 1 ]; then
 fi
 
 case $1 in
-  armv4/*)      COMPILER=arm-elf ;;
+  armv4/*)      COMPILER=arm-eabi ;;
   blackfin/*)   COMPILER=bfin-elf ;;
   h8/*)         COMPILER=h8300-elf ;;
   lm32/*)       COMPILER=lm32-elf ;;
