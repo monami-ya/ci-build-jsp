@@ -24,7 +24,7 @@ env:
   - TARGET=mips32/malta
   - TARGET=mips32/sead3
   - TARGET=mips32/semc5701
-  - TARGET=nios2/altera_dev_board
+#  - TARGET=nios2/altera_dev_board
 #  - TARGET=s1c33/dmt33209
 #  - TARGET=s1c33/luxun2
 #  - TARGET=s1c33-gnu33
