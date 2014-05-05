@@ -1,4 +1,4 @@
-Language: objective-c
+language: objective-c
 env:
 - TARGET=avrv4/az9360mb
 - TARGET=avrv4/integrator
