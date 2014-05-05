@@ -35,6 +35,7 @@ env:
 #  - TARGET=s1c33-gnu33/luxun2
   - TARGET=sh1/kz_sh1
   - TARGET=sh1/zunda_sh1
+  - TARGET=sh2/cq_frksh2a
   - TARGET=sh2/apsh2f6a
   - TARGET=sh2/hsb7616it
   - TARGET=sh3/ms7727cp01
