@@ -36,7 +36,6 @@ env:
 - TARGET=v850/tk850_kj1
 - TARGET=v850/tk850_sg2
 - TARGET=xstormy16/simulator
-before_script:
-- git clone http://support.toppers-open.org/jsp_core.git
 script:
+- git clone http://support.toppers-open.org/jsp_core.git
 - ./jsp_build.sh $TARGET
