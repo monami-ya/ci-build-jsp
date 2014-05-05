@@ -25,11 +25,11 @@ env:
   - TARGET=mips32/sead3
   - TARGET=mips32/semc5701
   - TARGET=nios2/altera_dev_board
-  - TARGET=s1c33/dmt33209
-  - TARGET=s1c33/luxun2
-  - TARGET=s1c33-gnu33
-  - TARGET=s1c33-gnu33/dmt33209
-  - TARGET=s1c33-gnu33/luxun2
+#  - TARGET=s1c33/dmt33209
+#  - TARGET=s1c33/luxun2
+#  - TARGET=s1c33-gnu33
+#  - TARGET=s1c33-gnu33/dmt33209
+#  - TARGET=s1c33-gnu33/luxun2
   - TARGET=sh1/kz_sh1
   - TARGET=sh1/zunda_sh1
   - TARGET=sh2/apsh2f6a
