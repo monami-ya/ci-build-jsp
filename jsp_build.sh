@@ -13,7 +13,7 @@ case $1 in
   m32r/*)       COMPILER=m32r-elf ;;
   m68k/*)       COMPILER=m68k-elf ;;
   microblaze/*) COMPILER=microblaze-elf ;;
-  mips32/*)     COMPILER=mips32-elf ;;
+  mips32/*)     COMPILER=mips-elf ;;
   nios2/*)      COMPILER=nios2-elf ;;
   s1c33*)       COMPILER=undefined ;;
   sh[1234]/*)   COMPILER=sh-elf ;;
