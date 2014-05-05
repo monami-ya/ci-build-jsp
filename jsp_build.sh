@@ -11,7 +11,7 @@ case $1 in
   h8/*)         COMPILER=h8300-elf ;;
   lm32/*)       COMPILER=lm32-elf ;;
   m32r/*)       COMPILER=m32r-elf ;;
-  m68k/*)       COMPILER=m68k-elf ;;
+  m68k/*|cfv2/*)       COMPILER=m68k-elf ;;
   microblaze/*) COMPILER=microblaze-elf ;;
   mips32/*)     COMPILER=mips-elf ;;
   nios2/*)      COMPILER=nios2-elf ;;

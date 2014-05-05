@@ -11,6 +11,7 @@ env:
   - TARGET=blackfin/ezkit_bf537
   - TARGET=blackfin/nosys
   - TARGET=blackfin/rebun
+  - TARGET=cfv2/m52235evb
   - TARGET=h8/akih8_3052f
   - TARGET=h8/akih8_3069f
   - TARGET=lm32/ecp2
